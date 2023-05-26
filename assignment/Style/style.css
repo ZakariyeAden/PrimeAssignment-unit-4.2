@@ -1,8 +1,10 @@
+/* Global, must add these to every website */
 *{
   margin: 0;
   box-sizing: border-box;
   padding: 0;
 }
+/* Change the Background to see the Border clearly */
 body{
   background-color: #fff;
 }
@@ -12,9 +14,13 @@ header{
 .img{
   width: 100%;
 }
+/* ********************************************* */
+/* *******         Info                 ******** */
+/* ********************************************* */
 .info h2, .info h3{
   text-align: center;
 }
+/* Color the headings */
 .info h2{
   background-color: cadetblue;
   color: bisque;
@@ -23,6 +29,9 @@ header{
   background-color: cornflowerblue;
   color: #fff;
 }
+/* ********************************************* */
+/* Spacing the info box and center in the page */
+/* ********************************************* */
 .info{
   border: 2px solid #000;
   display: flex;
